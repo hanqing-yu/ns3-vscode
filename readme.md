@@ -10,7 +10,7 @@ Debug ns3 in Visual Studio Code
 4. Press F1, choose "Remote Container : attach to running container", then choose the "ns3-vscode" container. (If remote server is used, connect to it first)
 5. Install the [C/C++](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools) extension in the container
 6. Open folder `/usr/ns-allinone-3.34/ns-3.34`
-7. Open file `/scratch/scratch-simulator.cc`, set a breakpoint in the main function and press F5. The program will run and stop at the breakpoint.
+7. Open file `scratch/scratch-simulator.cc`, set a breakpoint in the main function and press F5. The program will run and stop at the breakpoint.
 
 Now you can debug your own ns3 code in VSCode.
 
