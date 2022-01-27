@@ -1,0 +1,26 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "waf - build and debug active file",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "/usr/ns-allinone-3.34/ns-3.34/build/scratch/${fileBasenameNoExtension}",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "setupCommands": [
+                {
+                    "description": "enable gdb pretty printing",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ],
+            "preLaunchTask": "c/c++ build active file",
+            "miDebuggerPath": "/usr/bin/gdb"
+        }
+    ]
+}
