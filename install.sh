@@ -9,5 +9,5 @@ else
     rm ./ns-allinone-3.34.tar.bz2;
 fi
 docker build -t ns3 .
-docker run -it ns3 bash
+docker run --name="ns3-vscode" -it ns3 bash
 
